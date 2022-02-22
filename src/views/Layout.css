@@ -1,0 +1,9 @@
+#layout {
+	display: grid;
+	grid-template-areas:
+		'header header'
+		'nav content';
+	grid-template-columns: 1fr 8fr;
+	grid-template-rows: 1fr 9fr;
+	height: 100vh;
+}
