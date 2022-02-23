@@ -1,0 +1,52 @@
+#kubernetes {
+	height: 100%;
+}
+#content {
+	width: 90%;
+	height: 80%;
+	border: 1px solid #ccc;
+	margin: 1em auto 0 auto;
+	border-radius: 5px;
+}
+#cluster-table {
+	width: 100%;
+	text-align: center;
+}
+table,
+tr,
+td {
+	border-bottom: 1px solid #ccc;
+	border-collapse: collapse;
+}
+tr {
+	height: 4em;
+}
+.actions-menu {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	margin: auto;
+	position: relative;
+}
+.actions-button {
+	width: 2em;
+}
+.actions-button:hover {
+	background-color: #eee;
+	border-radius: 2px;
+}
+.actions-dropdown {
+	position: absolute;
+	top: 1.8em;
+	background-color: #fefefe;
+	width: 8em;
+	border: 1px solid #666;
+	border-radius: 5px;
+}
+.actions-dropdown:hover {
+	background-color: #eee;
+	color: inherit;
+}
+.actions-dropdown > p {
+	line-height: 0.5em;
+}

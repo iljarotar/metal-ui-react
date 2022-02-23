@@ -15,13 +15,13 @@ export default function Router() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<DashboardView />} />
-          <Route path="BillingSettings" element={<BillingSettingsView />} />
-          <Route path="ClusterDetails/:clusterId" element={<ClusterDetailsView />} />
-          <Route path="CreateCluster" element={<CreateClusterView />} />
-          <Route path="IpAddresses" element={<IpAddressesView />} />
-          <Route path="GeneralSettings" element={<GeneralSettingsView />} />
-          <Route path="Kubernetes" element={<KubernetesView />} />
-          <Route path="Volumes" element={<VolumesView />} />
+          <Route path="/BillingSettings" element={<BillingSettingsView />} />
+          <Route path="/ClusterDetails/:clusterId" element={<ClusterDetailsView />} />
+          <Route path="/CreateCluster" element={<CreateClusterView />} />
+          <Route path="/IpAddresses" element={<IpAddressesView />} />
+          <Route path="/GeneralSettings" element={<GeneralSettingsView />} />
+          <Route path="/Kubernetes" element={<KubernetesView />} />
+          <Route path="/Volumes" element={<VolumesView />} />
         </Route>
       </Routes>
     </BrowserRouter>

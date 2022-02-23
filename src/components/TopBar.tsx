@@ -19,7 +19,7 @@ export default function TopBar(props: any) {
               <p>1 Cluster</p>
             </div>
           </div>
-          <NavLink id="add-cluster-button" to="CreateCluster">
+          <NavLink id="add-cluster-button" to="/CreateCluster">
             <p>New Cluster</p>
           </NavLink>
         </div>
