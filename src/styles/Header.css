@@ -46,6 +46,7 @@ header {
 }
 .user-dropdown-item:hover {
 	background-color: #eee;
+	color: inherit;
 }
 .user-dropdown-item > p {
 	line-height: 0.5em;

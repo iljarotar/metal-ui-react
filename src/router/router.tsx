@@ -16,7 +16,7 @@ export default function Router() {
         <Route path="/" element={<Layout />}>
           <Route index element={<DashboardView />} />
           <Route path="BillingSettings" element={<BillingSettingsView />} />
-          <Route path="ClusterDetails" element={<ClusterDetailsView />} />
+          <Route path="ClusterDetails/:clusterId" element={<ClusterDetailsView />} />
           <Route path="CreateCluster" element={<CreateClusterView />} />
           <Route path="IpAddresses" element={<IpAddressesView />} />
           <Route path="GeneralSettings" element={<GeneralSettingsView />} />

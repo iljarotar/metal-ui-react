@@ -6,7 +6,7 @@ nav {
 	justify-content: space-between;
 }
 #version-info {
-	border: 1px solid #eee;
+	border: 1px solid #fefefe;
 	border-radius: 2px;
 	width: 90%;
 	margin: 0 auto 1em auto;
@@ -14,7 +14,7 @@ nav {
 	text-align: center;
 }
 #version-info > p {
-	color: #eee;
+	color: #fefefe;
 	line-height: 1em;
 }
 #nav-list {
@@ -26,7 +26,7 @@ nav {
 	display: block;
 	line-height: 3em;
 	padding-left: 2em;
-	color: #eee;
+	color: #fefefe;
 }
 .submenu-link {
 	padding-left: 3em;
@@ -37,7 +37,7 @@ a:hover,
 #submenu-summary:hover {
 	background-color: #0077dd;
 	text-decoration: none;
-	color: #eee;
+	color: #fefefe;
 }
 #submenu-summary {
 	cursor: pointer;

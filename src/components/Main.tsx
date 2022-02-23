@@ -1,10 +1,10 @@
+import '../styles/Main.css'
+import { Outlet } from 'react-router-dom'
+
 export default function Main() {
-  const style = {
-    gridArea: 'content'
-  }
   return (
-    <main style={style}>
-      <h3>Main</h3>
+    <main>
+      <Outlet />
     </main>
   )
 }

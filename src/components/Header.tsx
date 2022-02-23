@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div id="logo">
-        <img src="./images/cloud.png" alt="Cloud" />
+        <img src="../images/cloud.png" alt="Cloud" />
         <h1>Metal Cloud</h1>
       </div>
       <div id="user-menu">
